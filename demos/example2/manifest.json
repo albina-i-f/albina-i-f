@@ -3,7 +3,7 @@
   "short_name": "СБИС",
   "icons": [
     {
-      "src": "launcher-icon-3x.png",
+      "src": "img/favicon/app-icon-144x144.png",
       "sizes": "144x144",
       "type": "image/png"
     }

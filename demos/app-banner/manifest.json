@@ -1,6 +1,7 @@
 {
    "short_name": "СБИС",
    "name": "СБИС",
+  "display": "standalone",
    "icons": [
       {
          "src": "img/favicon/app-icon-144x144.png",

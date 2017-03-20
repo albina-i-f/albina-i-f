@@ -3,11 +3,6 @@
   "short_name": "СБИС",
   "icons": [
     {
-      "src": "launcher-icon-0-75x.png",
-      "sizes": "36x36",
-      "type": "image/png"
-    },
-    {
       "src": "launcher-icon-1x.png",
       "sizes": "48x48",
       "type": "image/png"

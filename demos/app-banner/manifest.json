@@ -3,7 +3,7 @@
    "name": "СБИС",
    "icons": [
       {
-         "src": "/img/favicon/app-icon-144x144.png",
+         "src": "img/favicon/app-icon-144x144.png",
          "type": "image/png",
          "sizes": "144x144"
       }

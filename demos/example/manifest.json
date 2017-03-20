@@ -1,6 +1,6 @@
 {
-  "name": "СБИС",
-  "short_name": "СБИС",
+  "name": "App Install Banner Sample",
+  "short_name": "App Install Banner Sample",
   "icons": [
     {
       "src": "launcher-icon-0-75x.png",

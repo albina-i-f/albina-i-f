@@ -9,7 +9,7 @@
          "sizes": "144x144"
       }
    ],
-   "start_url": "/?launcher=true",
+   "start_url": "./",
    "prefer_related_applications": true,
    "related_applications": [
       {

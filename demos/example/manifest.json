@@ -9,12 +9,5 @@
          "sizes": "144x144"
       }
    ],
-   "start_url": "./index.html",
-   "prefer_related_applications": true,
-   "related_applications": [
-      {
-         "platform": "play",
-         "id": "ru.tensor.sbis.droid"
-      }
-   ]
+   "start_url": "/?launcher=true",
 }

@@ -20,20 +20,29 @@
 	<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-touch-icon-152x152.png">
 	
 	<link rel="manifest" href="manifest.json">
+    <script> 
+    window.addEventListener('load', function() {
+
+      var outputElement = document.getElementById('output');
+
+      navigator.serviceWorker.register('service-worker.js', { scope: 'https://albina-i-f.github.io/demos/app-banner/' })
+        .then(function(r) {
+          console.log('registered service worker');
+        })
+        .catch(function(whut) {
+          console.error('uh oh... ');
+          console.error(whut);
+        });
+       
+      window.addEventListener('beforeinstallprompt', function(e) {
+        outputElement.textContent = 'beforeinstallprompt Event fired';
+      });
+    });
+    </script>
 </head>
 
 <body>
 	<h1>Hello, world!</h1>
-	
-  <script> 
-      window.addEventListener('load', function() {
-  
-        var outputElement = document.getElementById('output');
-               
-       window.addEventListener('beforeinstallprompt', function(e) {
-          outputElement.textContent = 'beforeinstallprompt Event fired';
-        });
-      });
-    </script>
+	<pre id="output"></pre>
 </body>
 </html>
